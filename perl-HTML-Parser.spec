@@ -1,7 +1,7 @@
 Name:           perl-HTML-Parser
 Summary:        Perl module for parsing HTML
 Version:        3.71
-Release:        2.1%{?dist}
+Release:        4%{?dist}
 License:        GPL+ or Artistic
 Group:          Development/Libraries
 Source0:        http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTML-Parser-%{version}.tar.gz 
@@ -69,6 +69,12 @@ make test
 %{_mandir}/man3/*.3pm*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.71-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.71-3
+- Mass rebuild 2013-12-27
+
 * Thu Aug 01 2013 Petr Šabata <contyk@redhat.com> - 3.71-2.1
 - Drop the tests subpackage
 
